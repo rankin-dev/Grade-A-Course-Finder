@@ -1,3 +1,4 @@
-Hello, tell me if you see this
-Gabrielle sees you!
-trinity sees this
+Open a .text file, w
+Get user input for survey questions
+Close file
+Sort file by ranking
