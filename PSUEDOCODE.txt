@@ -1,4 +1,7 @@
-Open a .text file, w
-Get user input for survey questions
-Close file
-Sort file by ranking
+Import panda
+create empty dictionary
+create key
+prompt user for value
+create dataframe
+open dataframe
+sort. rank dataframe
