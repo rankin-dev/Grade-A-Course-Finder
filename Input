@@ -1,5 +1,5 @@
 # Import panda
-import pandas
+import pandas as pd
 # create empty dictionary
 coursefinder = {}
 # create key
