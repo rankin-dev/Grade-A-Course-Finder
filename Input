@@ -1,6 +1,12 @@
-filename = input ("filename: ");
-with open (filename, "w") as f:
-    f.write (input ('What is the course name? '));
-    f.write (input ('What is the professor’s name? '));
-    f.write (input ('What do you rate the course? '));
-    f.write (input ('How difficult was the course? '));
+# Import panda
+import pandas
+# create empty dictionary
+coursefinder = {}
+# create key
+coursefinder = {"K1": input("Name of the course: "), "K2": input("Professor's name: "), "K3":input("What do you rate the course? (1 being the worst 5 being the best) "), "K4": input("How difficult was the course (1 being too easy and 5 being extremely difficult) "), "K5":input("Would you take this course again? (YES or NO) "), "K6":input("How was the workload? (1 being very light to 5 being too much) ") , "K7" : input("Were the exams/readings simple or intense? (1 being easiest to 5 being the hardest)"
+),"K8":input("Did you learn something substantial from the class? (Yes or No)" 
+) }
+# prompt user for value
+# create dataframe
+# open dataframe
+# sort. rank dataframe
