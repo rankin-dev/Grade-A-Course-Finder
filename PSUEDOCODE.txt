@@ -1,7 +1,15 @@
 Import panda
+
 create empty dictionary
+
 create key
-prompt user for value
+
+prompt user for course values
+
 create dataframe
+
 open dataframe
+
+write into dataframe using dictionary
+
 sort. rank dataframe
