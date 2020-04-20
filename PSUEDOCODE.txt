@@ -1,4 +1,4 @@
-Import panda
+Import pandas as pd
 
 create empty dictionary
 
@@ -9,6 +9,10 @@ prompt user for course values
 create dataframe
 
 open dataframe
+
+define a dictionary containing the user input data 
+
+convert dictionary into dataframe
 
 write into dataframe using dictionary
 
