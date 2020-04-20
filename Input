@@ -9,4 +9,8 @@ coursefinder = {"K1": input("Name of the course: "), "K2": input("Professor's na
 # prompt user for value
 # create dataframe
 # open dataframe
+#define a dictionary containing the user input data 
+#convert dictionary into dataframe
+#write into dataframe using dictionary
 # sort. rank dataframe
+
