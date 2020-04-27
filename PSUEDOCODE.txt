@@ -1,19 +1,21 @@
 Import pandas as pd
+Create empty dictionary with variable coursefinder
+Define get_error_ratings_int for prompt
+  while true
+    try
+      prompt integar with variable value
+    expect
+      print "Sorry, I didn't understand that."
+      continue
+    if value is not between 0 and 5
+      print "Sorry, your response must between 1-5"
+      continue
+    else
+      break
+   return value
 
-create empty dictionary
-
-create key
-
-prompt user for course values
-
-create dataframe
-
-open dataframe
-
-define a dictionary containing the user input data 
-
-convert dictionary into dataframe
-
-write into dataframe using dictionary
-
-sort. rank dataframe
+Add user input to pd with .DataFrame() with variable df
+Choose key as subject and value as question that should be prompt by user
+Save df using .to_csv()
+name csv as "Course_Finder.csv"
+      
