@@ -4,7 +4,7 @@ Define get_error_ratings_int for prompt
   while true
     try
       prompt integar with variable value
-    expect
+    except
       print "Sorry, I didn't understand that."
       continue
     if value is not between 0 and 5
@@ -32,6 +32,19 @@ Define get_error_ratings_int for prompt
     if error equals 1
         continue
   return name 
+  
+  
+error function that makes sure the input's are Yes or No
+  while True
+    if input is not Yes or No
+        print ""Please respond with yes or no"
+    if input is Yes or No
+        break
+   figure out why it wont accept yes or no
+    return response
+        
+        
+        
 
 Add user input to pd with .DataFrame() with variable df
 Choose key as subject and value as question that should be prompt by user
