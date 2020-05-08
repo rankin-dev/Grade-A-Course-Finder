@@ -14,6 +14,25 @@ Define get_error_ratings_int for prompt
       break
    return value
 
+  while True
+    try
+      prompt user for course name as a string 
+    except
+   if input is not 7 characters 
+        print "The course name must be 7 characters long with 4 letters and 3 numbers."
+
+    Create error message if numbers were entered for the course name portion
+        print "Sorry the course name must start with 4 characters."
+
+    Create error message if letters were entered for the number portion 
+        print "Sorry the course name must end with 3 numbers."  
+
+    if error equals 0
+        break
+    if error equals 1
+        continue
+  return name 
+
 Add user input to pd with .DataFrame() with variable df
 Choose key as subject and value as question that should be prompt by user
 Save df using .to_csv()
