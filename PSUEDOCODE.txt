@@ -42,7 +42,16 @@ error function that makes sure the input's are Yes or No
         break
    figure out why it wont accept yes or no
     return response
-        
+       
+Define get_error_yes_no for prompt
+  Create a while loop for true
+    set varible to response = input 
+    all forms of yes and no are ture
+      break
+    if response does not equal yes or no 
+    send invalid message
+ return response 
+    
         
         
 
