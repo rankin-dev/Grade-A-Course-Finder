@@ -33,15 +33,7 @@ Define get_error_ratings_int for prompt
         continue
   return name 
   
-  
-error function that makes sure the input's are Yes or No
-  while True
-    if input is not Yes or No
-        print ""Please respond with yes or no"
-    if input is Yes or No
-        break
-   figure out why it wont accept yes or no
-    return response
+ 
        
 Define get_error_yes_no for prompt
   Create a while loop for true
