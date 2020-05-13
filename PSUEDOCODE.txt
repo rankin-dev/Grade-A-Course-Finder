@@ -43,8 +43,10 @@ Define get_error_yes_no for prompt
     if response does not equal yes or no 
     send invalid message
  return response 
-    
-        
+   
+   
+write reviews into a csv file
+each row is a new review
         
 
 Add user input to pd with .DataFrame() with variable df
