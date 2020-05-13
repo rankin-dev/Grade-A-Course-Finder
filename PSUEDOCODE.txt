@@ -47,6 +47,8 @@ Define get_error_yes_no for prompt
    
 write reviews into a csv file
 each row is a new review
+
+group data by Class in a bar graph 
         
 
 Add user input to pd with .DataFrame() with variable df
