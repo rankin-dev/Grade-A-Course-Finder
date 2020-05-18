@@ -1,3 +1,4 @@
+(Trinity and Gabrielle)
 Import pandas as pd
 Create empty dictionary with variable coursefinder
 Define get_error_ratings_int for prompt
